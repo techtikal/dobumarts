@@ -1,44 +1,71 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dubo Martial Arts</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="header">
-            <div class="container">
-              <div class="navbar">
-                <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
-                </div>
-                <nav>
-                  <ul id="MenuItems">
-                    <li><a href="distribution.html">Website Code</a></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="under-construction.html">About</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
-                    <li><a href="under-construction.html">My Account</a></li>
-                  </ul>
-                </nav>
-                  <img src="images/menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
-           </div>
-           <div class="row">
-            <div class="col-2">
-                <h1>Welcome to the Dubo Martial Arts Gym!</h1>
-                <p>This is a paragraph!!</p>
-            </div>
-            <div class="col-2">
-                <img src="images/frontpic.png">
-            </div>
-          </div>
-          </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubo Martial Arts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+ <div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+       <a href="index.html"><img src="images/logo.png" width="125px"></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="distribution.html">Website Code</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="under-construction.html">About</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="under-construction.html">My Account</a></li>
+        </ul>
+      </nav>
+        <img src="images/menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
+ </div>
+<div class="row">
+  <div class="col-2">
+    <h1>Dubo Martial Arts<br>Gym!</h1>
+      <p>Find our prices and <br> membership costs here!</p>
+      <a href="products.html" class="btn">Explore Now! &#x276F;</a>
+  </div>
+  <div class="col-2">
+      <img src="images/frontpic.png">
+  </div>
+</div>
+</div>
+</div>
+    
+<!---- Footer ---->
+    
+    <div class="footer">
+        <div class="container">
+            <hr>
+            <p class="copyright">Dubo Martial Arts 2023<br>Hosted on <a href="https://github.com">GitHub via Pages</a></p>
         </div>
-    </body>
-    <footer>Dubo Martial Arts 2023<br>Hosted on <a href="https://github.com">GitHub via Pages</a></footer>
+    </div>
+    </div>
+    <!----Script for the Menu---->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    
+ </body>
 </html>
