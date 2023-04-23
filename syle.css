@@ -151,3 +151,205 @@ h4{
 small{
     color: #555;
 }
+
+/*----- Testimonial Part -----*/
+
+.trestmonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 15px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #241c64;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777
+}
+/*---- Brands part ----*/
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%)
+}
+.col-5 img:hover{
+    filter: grayscale(0%);
+}
+/*---- FOOTER ----*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer-col-1{
+    flex-basis: 30%;
+    text-align: center;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+    text-align: center;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, col-4{
+        flex-basis: 100%;
+    }
+}
+/*---- All Products Page ----*/
+.row-2{
+    justify-content: space-between;
+    margin: 10px auto 50px;
+}
+select{
+    border: 1px solid #241c64;
+    padding: 5px;
+}
+select:focus{
+    outline: none
+}
+.page-btn{
+    margin: 0 auto 80px
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #241c64;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #241c64;
+    color: #fff;
+}
+
+/*---- single product ----*/
+.single-product{
+    margin-stop: 60px;
+}
+.single-product .col-2{
+    padding: 0px;
+}
+.single-product .col-2 img{
+    padding: 0;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #241c64;
+}
+input:focus{
+    outline: none;
+}
