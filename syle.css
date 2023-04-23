@@ -1,12 +1,14 @@
-body{
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     font-family: 'Open Sans', sans-serif;
 }
 .navbar {
     display: flex;
-    align-items: cente;
+    align-items: center;
     padding: 20px;
     background: #fff;
 }
