@@ -9,8 +9,9 @@ body{
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
-    background: #fff;
+    padding: 10px;
+    background: #000000;
+    color: #fff;
 }
 .header{
     background: #000;
