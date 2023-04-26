@@ -92,6 +92,7 @@ p{
 }
 .small-container{
     background-color: #838383;
+    text-decoration-color: #fff;
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
