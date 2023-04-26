@@ -9,7 +9,7 @@ body{
 .navbar {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     background: #000000;
     color: #fff;
 }
@@ -142,7 +142,7 @@ h4{
     transform: translateY(-5px);
 }
 .offer{
-    background: radial-gradient(#fff, #241c64);
+    background: radial-gradient(#333333, #d37800);
     margin-top: 80px;
     padding: 30px 0;
 }
