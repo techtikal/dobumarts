@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubu Martial Arts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+ <div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+       <a href="index.html"><img src="images/logo.png" width="125px"></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="github.html">Website Code</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+        <img src="images/menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
+ </div>
+</div>    
+<div class="small-container">
+            <h2 class="title">Please read if you plan to use my code!</h2>
+    <p>This website project and repository may NOT be used in a commercial environment.<br> Any and all attempts to use my code but be approved first. <br> The code in this project can and only will be used for Educational Purposes only! <br> This project will remain public until the assignment due date.
+
+</p>
+    <h2 class="title">If you agree to these conditions. You can click this button to view the repository</h2>
+    <a href="https://github.com/ayanothewolf/dubumarts" class="btn">View Repository &#x276F;</a>
+    
+    </div>
+    
+<!---- Footer ---->
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+            <hr>
+            <p class="copyright">Dubu Martial Arts 2023<br>Hosted on <a href="https://github.com">GitHub via Pages</a></p>
+        </div>
+    </div>
+    <!----Script for the Menu---->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    
+ </body>
+</html>
