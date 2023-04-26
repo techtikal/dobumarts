@@ -73,7 +73,7 @@ p{
     background: #00acfc;
 }
 .header{
-    background: radial-gradient(#fff, #241c64);
+    background: radial-gradient(#fff, #e99f15);
 }
 .header .row{
     margin-top: 70px;
@@ -118,7 +118,7 @@ p{
 }
 .title::after{
     content: '';
-    background: #241c64;
+    background: #ca6c00;
     width: 80px;
     height: 5px;
     border-radius: 5px;
