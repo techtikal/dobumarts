@@ -32,6 +32,9 @@ a{
 p{
     color: #909090;
 }
+h2{
+    text-decoration: red;
+}
 .container{
     max-width: 1300px;
     margin: auto;
@@ -71,7 +74,7 @@ p{
     background: #5e5e5e;
 }
 .header{
-    background: radial-gradient(#494949, #7c0000);
+    background: radial-gradient(#888888, #7c0000);
 }
 .header .row{
     margin-top: 70px;
