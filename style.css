@@ -11,9 +11,9 @@ body{
 .navbar {
     display: flexbox;
     align-items: center;
-    padding: 20px;
-    background: #000000;
-    color: #fff;
+    padding: 10px;
+    background: #535353;
+    color: #8a0000;
 }
 .header{
     background: #000;
