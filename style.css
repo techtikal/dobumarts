@@ -1,4 +1,4 @@
-{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +23,7 @@ nav{
 nav ul{
     display: inline-block;
     list-style-type: none;
-}
+}https://ayanothewolf.github.io/dubumarts/index.html
 nav ul li{
     display: inline-block;
     margin-right: 20px;
