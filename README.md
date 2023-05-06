@@ -1,7 +1,7 @@
 # Note to Repository Viewer
 Hi! This is my first repository on GitHub, I am using it to create my website project.
 
-# Dubo Martial Arts Website Project
+# Dobu Martial Arts Website Project
 This is a project that is being done in University. I am using GitHub's pull and merge systems to help with development.
 
 This repository only website files. Any documentation or concept and/or test plans are documents that remain private.
