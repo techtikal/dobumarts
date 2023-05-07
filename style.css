@@ -75,7 +75,6 @@ h2{
 }
 .header{
     background: radial-gradient(#888888, #7c0000);
-    max-width: 220px;
 }
 .header .row{
     margin-top: 70px;
