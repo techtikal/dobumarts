@@ -17,10 +17,10 @@
       </div>
       <nav>
         <ul id="MenuItems">
-          <li><a href="github.html">Git Repo</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="prices.html">Prices</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="github.html" class="btn">Git Repo</a></li>
+          <li><a href="index.html" class="btn">Home</a></li>
+          <li><a href="prices.html" class="btn">Prices</a></li>
+          <li><a href="about.html" class="btn">About</a></li>
         </ul>
       </nav>
         <img src="images/menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
@@ -29,10 +29,9 @@
 <div class="small-container">
     <h2 class="title">GitHub Repository</h2>
         <p>This website is hosted and stored on a GitHub repository by user <a href="https://github.com/ayanothewolf">AyanoTheWolf</a>.<br> 
-            Issues and Pull Requests may not be read unless they are from a trusted source. <br> 
-            This code is available to view on GitHub for EDUCATIONAL PURPOSES ONLY. <br> 
-
-            Thanks for taking the time to view my website and see what I've been working on :D <br>
+            Before you can view my repository, I ask you read the GNU GENERAL PUBLIC LICENSE for Open Source Software and Data.
+            <br>
+            <div class="gnulicense"><p><embed src="gnulicense.txt"></p></div>
             <a href="https://github.com/ayanothewolf/Dobumarts" class="btn">View Repository &#x276F;</a>
         </p>
 </div>
@@ -53,7 +52,7 @@
     function menutoggle(){
         if(MenuItems.style.maxHeight == "0px")
         {
-            MenuItems.style.maxHeight = "200px";
+            MenuItems.style.maxHeight = "600px";
         }
         else
         {

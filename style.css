@@ -1,3 +1,11 @@
+gnulicense {
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: both;
+    overflow: auto;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -27,14 +35,15 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: #c0c0c0;
+    color: #2d00f3;
 }
 p{
-    color: #e3e3e3;
+    color: #b4b4b4;
 }
 h2{
     text-decoration: red;
 }
+
 .container{
     max-width: 1300px;
     margin: auto;
@@ -96,6 +105,7 @@ h2{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    background-color: #333333;
 }
 .col-4{
     flex-basis: 20%;
