@@ -272,5 +272,5 @@ ul{
     }
 }
 @media print {
-    footer {page-break-after: always;}
+    footer {page-break-after: always;};
   }
