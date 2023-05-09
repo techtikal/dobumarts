@@ -6,7 +6,10 @@ gnulicense {
     resize: both;
     overflow: auto;
 }
-
+table, th, td {
+    border: 1px solid black;
+    text-decoration: white;
+  }
 body{
     margin: 0;
     padding: 0;
