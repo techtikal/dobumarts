@@ -94,7 +94,7 @@ h2{
 }
 /*---- Background of website ----*/
 .header{
-    /*background: radial-gradient(#888888, #7c0000);*/
+    background: transparent
 }
 .header .row{
     margin-top: 70px;
