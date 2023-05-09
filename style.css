@@ -6,9 +6,6 @@ gnulicense {
     resize: both;
     overflow: auto;
 }
-.{
-    background-color: #333333;
-}
 table, th, td {
     border: 1px solid black;
   }
@@ -94,7 +91,8 @@ h2{
 }
 /*---- Background of website ----*/
 .header{
-    background: radial-gradient(#888888, #7c0000);
+    /*background: radial-gradient(#888888, #7c0000);*/
+    background-image: "images/background.jpeg"
 }
 .header .row{
     margin-top: 70px;
