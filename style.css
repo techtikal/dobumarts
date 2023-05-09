@@ -5,6 +5,7 @@ gnulicense {
     width: 300px;
     resize: both;
     overflow: auto;
+    color: white;
 }
 table, th, td {
     border: 1px solid black;
