@@ -8,8 +8,6 @@ gnulicense {
 }
 table, th, td {
     border: 1px solid black;
-    text-decoration: white;
-
   }
 
 tr:nth-child(even) {
