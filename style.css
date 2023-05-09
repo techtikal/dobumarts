@@ -125,11 +125,11 @@ h2{
     margin: 0 auto 80px;
     position: relative;
     line-height: 60px;
-    color: #555;
+    color: #be0000;
 }
 .title::after{
     content: '';
-    background: #777777;
+    background: #afafaf;
     width: 80px;
     height: 5px;
     border-radius: 5px;
