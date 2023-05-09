@@ -11,6 +11,10 @@ table, th, td {
     text-decoration: white;
 
   }
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
 body{
     margin: 0;
     padding: 0;
