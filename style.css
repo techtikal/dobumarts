@@ -92,7 +92,9 @@ h2{
 /*---- Background of website ----*/
 .header{
     /*background: radial-gradient(#888888, #7c0000);*/
-    background-image: url("images/background.jpeg")
+    background-image: url("images/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 .header .row{
     margin-top: 70px;
