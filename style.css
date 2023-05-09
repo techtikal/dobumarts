@@ -271,3 +271,6 @@ ul{
         flex-basis: 100%;
     }
 }
+@media print {
+    footer {page-break-after: always;}
+  }
