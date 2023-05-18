@@ -31,7 +31,6 @@
         <p>This page is under construction, logging on is expected to fail!<br>To view a preview demo of the page, use these credentials:<br>
           Email: demouser@dobumartialarts.com<br>Password: CanHasDemo</p>
           <div class="loginContainer">
-            <label id="attempts"><small>Attempted Signin: 0</small> </label>
             <br />
             <label for="uname"><b>Email Address: </b></label>
             <input id="username" type="text" placeholder="Enter Email" name="uname" required>
@@ -40,6 +39,8 @@
             <input id="password" type="password" placeholder="Enter Password" name="psw" required>
                 
             <button type="submit" onclick='authenticate()'>Login</button>
+            <br>
+            <label id="attempts"><small>Attempted Signin: 0</small> </label>
           </div>
         <div class="row">
   <div class="col-2"> 
