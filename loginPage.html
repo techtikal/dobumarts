@@ -98,12 +98,9 @@ function status() {
 
 
   if(loggedIn) {
-    console.log('You are in :)');
-    //document.getElementById('attempts').innerHTML = "Signing in as 'DemoUser@DobuMartialArts.com'...";
-    setTimeout( document.getElementById('attempts').innerHTML = "Signing in as 'DemoUser@DobuMartialArts.com'...", 5000);
-    reDirectLoggedIn()
+    document.getElementById('attempts').innerHTML = "Signing in as DemoUser...";
+    setTimeout(reDirectLoggedIn(), 5000);
   } else {
-    console.log('You are not in :(');
     attempts++;
     document.getElementById('attempts').innerHTML = "Attempted Signin:  " + attempts;
     
