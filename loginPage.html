@@ -99,7 +99,7 @@ function status() {
 
   if(loggedIn) {
     document.getElementById('attempts').innerHTML = "Signing in as DemoUser...";
-    setTimeout(reDirectLoggedIn(), 5000);
+    reDirectLoggedIn()
   } else {
     attempts++;
     document.getElementById('attempts').innerHTML = "Attempted Signin:  " + attempts;
