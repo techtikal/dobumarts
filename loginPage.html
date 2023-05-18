@@ -28,29 +28,21 @@
 </div>    
     <div class="small-container">
         <h2 class="title">Member Panel sign on</h2>
-        <p>This page is currently non functional.<br>To view a preview demo of the page, use these credentials<br>Email: demouser@dobumartialarts.com<br>Pass: LetMeHasDemo</p>
+        <p>This page is under construction, logging on is expected to fail!<br>To view a preview demo of the page, use these credentials:<br>
+          Email: demouser@dobumartialarts.com<br>Password: CanHasDemo</p>
+          <div class="loginContainer">
+            <label id="attempts"><small>Attempted Signin: 0</small> </label>
+            <br />
+            <label for="uname"><b>Email Address: </b></label>
+            <input id="username" type="text" placeholder="Enter Email" name="uname" required>
+        <br>
+            <label for="psw"><b>Password: </b></label>
+            <input id="password" type="password" placeholder="Enter Password" name="psw" required>
+                
+            <button type="submit" onclick='authenticate()'>Login</button>
+          </div>
         <div class="row">
-  <div class="col-2">
-      <table>
-  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-    <tr>
-      <td> <label for="cEmail">email address: </td>
-      <td> <input type="text" id="cEmail" name="cEmail" required pattern="[a-zA-Z0-9, @]+" placeholder="info@dobumartialarts.com"> </td>
-    </tr>
-
-    <tr>
-      <td> <label for="cPass">Password: </td>
-      <td> <input type="text" id="cPass" name="cPass" required placeholder="P4$$w0rd!"> </td>
-    </tr>
-      
-    <tfoot>
-    <tr>
-      <th colspan=2> <input type="submit" value="Login"> </th>
-    </tr>
-    </tfoot>
-
-  </form>
-</table>
+  <div class="col-2"> 
   </div>
 </div>
         
@@ -82,6 +74,43 @@
                 MenuItems.style.maxHeight = "0px";
             }
         }
+        var loggedIn = false;
+
+var attempts = 0;
+
+function authenticate() {
+  var username = document.getElementById('username').value;
+  var password = document.getElementById('password').value;
+  
+  loggedIn = login(username,password);
+  status();
+}
+
+function login(username, password) {
+    var stored_user = "demouser@dobumartialarts.com";
+    var storedPassword = 'CanHasDemo';
+
+    return password == storedPassword && stored_user == username;
+}
+
+function status() {
+
+
+
+  if(loggedIn) {
+    console.log('You are in :)');
+    reDirectLoggedIn();
+  } else {
+    console.log('You are not in :(');
+    attempts++;
+    document.getElementById('attempts').innerHTML = "Attempted Signin:  " + attempts;
+    
+  }
+}
+
+function reDirectLoggedIn() {
+  location.replace("logged-in.html")
+}
     </script>
     
  </body>
