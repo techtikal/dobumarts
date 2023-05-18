@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobu Martial Arts - Prices</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+       <a href="index.html"><img src="images/logo.png" width="125px"></a>
+       <p>Welcome, DemoUser!</p>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html" class="btn">Home</a></li>
+          <li><a href="prices.html" class="btn">Prices</a></li>
+          <li><a href="about.html" class="btn">About</a></li>
+          <li><a href="accountPages/loggingOut.html" class="btn">Sign Out</a></li>
+        </ul>
+      </nav>
+        <img src="images/menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
+ </div> 
+</div>    
+<div class="small-container">
+    <h2 class="title">DemoUser's Dashboard</h2>
+        <p>This part of the website will contain the Prices for Dobu Martial Arts Gym.
+          <br><br><font color="white">
+          <table>
+            <tr>
+              <th>Membership Type: Elite</th>
+            </tr>
+            <tr>
+              <td> <div class="dropdown">
+                <button class="dropbtn">Select Membership Type:</button>
+                <div class="dropdown-content">
+                  <a href="#">Beginner</a>
+                  <a href="#">Intermediate</a>
+                  <a href="#">Elite</a>
+                </div>
+              </div> </td>
+              <td>£25.00</td>
+            </tr>
+            <tr>
+              <td>Intermediate (1 martial art – 3 sessions per week) – monthly fee</td>
+              <td>£35.00</td>
+            </tr>
+            <tr>
+              <td>Advanced (any 2 martial arts – 5 sessions per week) – monthly fee</td>
+              <td>£45.00</td>
+            </tr>
+            <tr>
+              <td>Elite (Unlimited classes)</td>
+              <td>£60.00</td>
+            </tr>
+            <tr>
+              <td>Private martial arts tuition – per hour</td>
+              <td>£15.00</td>
+            </tr>
+            <tr>
+              <td>Junior membership – can attend all-kids martial arts sessions</td>
+              <td>£25.00</td>
+            </tr>
+          </table> 
+          <br></font>
+          <br>
+          <table><font color="white">
+            <tr>
+              <th>Specialist and Fitness Training</th>
+            </tr>
+            <tr>
+              <td>Six-week beginners’ self-defence course (2 × 1-hour session per week)</td>
+              <td>£180.00</td>
+            </tr>
+            <tr>
+              <td>Use of fitness room – per visit</td>
+              <td>£6.00</td>
+            </tr>
+            <tr>
+              <td>Personal fitness training – per hour </td>
+              <td>£35.00</td>
+            </tr>
+          </table> </font>
+        </p>
+</div>
+<!---- Footer ---->
+<footer>
+  <div class="footer">
+      <div class="container">
+          <hr>
+          <p class="copyright">Dobu Martial Arts 2023<br>Hosted on <a href="https://github.com">GitHub via Pages</a></p>
+      </div>
+  </div>
+</footer>
+<!----Script for the Menu---->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "600px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
