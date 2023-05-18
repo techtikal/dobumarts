@@ -184,6 +184,9 @@ h4{
 small{
     color: #555;
 }
+.socials{
+    text-align: center;
+}
 /* ---- Account Page ---- */
  /* Dropdown Button */
  .dropbtn {
