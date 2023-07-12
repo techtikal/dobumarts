@@ -5,3 +5,6 @@ This repository only website files. Any documentation or concept and/or test pla
 
 # How will creating this document on GitHub do any good?
 I can use the GitHub merge and commit logs as part of my evaluation.
+
+# Update July 2023
+This repo and website is declared complete, no further edits will be done.
